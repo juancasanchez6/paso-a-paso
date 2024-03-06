@@ -136,14 +136,14 @@ export default function Navbar () {
       height: 150px;
       display: flex;
       justify-content: center;
-      padding: 10px;
+      padding: 0px;
        /* Ajusta el padding general de la barra de navegación según tus necesidades */
     }
     
     .menu > * {
       margin-right: 4px; /* Agrega espacio entre las opciones seleccionadas */
       gap: 2rem;
-      padding: 10px;
+      padding: 0px;
     }
     
     label {
