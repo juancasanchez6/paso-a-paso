@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './componentes/Navbar';
-import RouteList from './componentes/ListaRutas';
-import RouteForm from './componentes/FormularioRutas';
+import FormularioRutas from './componentes/FormularioRutas';
 import './App.css'
+import ListaRutas from './componentes/ListaRutas';
 
 function App () {
   return (
@@ -10,8 +10,8 @@ function App () {
       <div className='navbar'>
         <Navbar />
       </div>
-      <RouteList />
-      <RouteForm />
+      <ListaRutas />
+      <FormularioRutas />
     </div>
   );
 }
