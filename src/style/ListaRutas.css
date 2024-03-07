@@ -6,7 +6,7 @@ ul {
 
 /* Estilo para cada elemento de ruta */
 li {
-  border: 0px solid #ddd;
+  border: 1px solid #ddd;
   margin-bottom: 10px;
   padding: 10px;
   transition: background-color 0.3s ease;
